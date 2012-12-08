@@ -19,7 +19,7 @@ namespace MyProject.Models.DataModels
     [EnsureIndex]
     public override string Name { get; set; } // override the base model name field to provide the Index attribute
     
-    public DateTime SomeDateUtd { get; set; } // some other field without any attributes
+    public DateTime SomeDateUtc { get; set; } // some other field without any attributes
   }
 }
 
@@ -30,7 +30,6 @@ namespace MyProject.Core.Repository
     public MyModelRepository()
     {
       UriSlugEnabled = true; // automatically creates a slug form "this-is-the-item-name"
-      UriHashEnagled = true; // automatically creates a hash to be used like "http://mysi.te/asdFGh
     }
   }
 }
