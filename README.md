@@ -51,3 +51,15 @@ namespace MyProject
 }
 
 ```
+
+
+EnsureIndex requires a small bootstrap at this time.
+To do so in an MVC project, add the the following to your Global.asax.cs:
+
+```csharp
+
+Cshongo.Bootstrapper.Init( typeof( MyModel ) );
+
+```
+
+This effectively will infer the other models in the same namespace, inspect them for Indexes, then call the appropriate mongo call. This is done only on initial load/reload of an app to save on some overhead, so plan accordingly.
