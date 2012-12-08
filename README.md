@@ -3,7 +3,7 @@ cshongo
 
 C# Wrapper for MongoDB
 
-Provides a base repo for working with mongo + a suite of helper attributes and ease of use functions for making kickstarting a project even quicker. This initial release was original built around a year ago for one of my startups and has languished on my computer since. I've extracted what I felt was all the generic methods and will continue to refine and refactor until I feel like everything is in the right place.
+Provides a base repo for working with mongo + a suite of helper attributes and ease of use functions for making kickstarting a project even quicker. This initial release was pulled from something I built around a year ago for one of my startups and then languished on my computer ever since. I've extracted what I felt was all the generic methods and will continue to refine and refactor as I use it with another one of my endeavors.
 
 Examples:
 
